@@ -88,7 +88,7 @@
         <av:PointCollection x:Key="ConnectorLocation">420,77.5 420,119.5</av:PointCollection>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <State x:Name="__ReferenceID1" sap2010:Annotation.AnnotationText="비즈니스 로직 수행부분" DisplayName="2. 수행" sap:VirtualizedContainerService.HintSize="484,1022" sap2010:WorkflowViewState.IdRef="State_3">
+    <State x:Name="__ReferenceID1" sap2010:Annotation.AnnotationText="비즈니스 로직 수행부분" DisplayName="2. 수행" sap:VirtualizedContainerService.HintSize="253,110" sap2010:WorkflowViewState.IdRef="State_3">
       <State.Entry>
         <TryCatch DisplayName="Try to process 비즈니스로직수행" sap:VirtualizedContainerService.HintSize="438,584" sap2010:WorkflowViewState.IdRef="TryCatch_9">
           <sap:WorkflowViewStateService.ViewState>
@@ -365,9 +365,9 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <Transition.To>
-                    <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="프로그램 강제종료 및&#xA;Config파일 변수매핑 " DisplayName="1. 초기화" sap:VirtualizedContainerService.HintSize="253,120" sap2010:WorkflowViewState.IdRef="State_2">
+                    <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="프로그램 강제종료 및&#xA;Config파일 변수매핑 " DisplayName="1. 초기화-" sap:VirtualizedContainerService.HintSize="610,1831" sap2010:WorkflowViewState.IdRef="State_2">
                       <State.Entry>
-                        <TryCatch DisplayName="설정 및 응용 프로그램 초기화를 시도하십시오" sap:VirtualizedContainerService.HintSize="564,1363" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                        <TryCatch DisplayName="설정 및 응용 프로그램 초기화를 시도하십시오" sap:VirtualizedContainerService.HintSize="564,1374" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -375,7 +375,7 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <TryCatch.Try>
-                            <Sequence DisplayName="구성 로드 및 애플리케이션 열기" sap:VirtualizedContainerService.HintSize="526,1116" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                            <Sequence DisplayName="구성 로드 및 애플리케이션 열기" sap:VirtualizedContainerService.HintSize="526,1127" sap2010:WorkflowViewState.IdRef="Sequence_4">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -390,7 +390,7 @@
                                   <InArgument x:TypeArguments="s:Exception">[Nothing]</InArgument>
                                 </Assign.Value>
                               </Assign>
-                              <If sap2010:Annotation.AnnotationText="초기화되지 않은 Config 사전은 이것이 프로세스의 첫 번째 실행임을 나타냅니다." Condition="[Config is Nothing]" DisplayName="If 처음 실행하는 경우 로컬 구성 파일을 읽습니다." sap:VirtualizedContainerService.HintSize="484,826" sap2010:WorkflowViewState.IdRef="If_1">
+                              <If sap2010:Annotation.AnnotationText="초기화되지 않은 Config 사전은 이것이 프로세스의 첫 번째 실행임을 나타냅니다." Condition="[Config is Nothing]" DisplayName="If 처음 실행하는 경우 로컬 구성 파일을 읽습니다." sap:VirtualizedContainerService.HintSize="484,837" sap2010:WorkflowViewState.IdRef="If_1">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
